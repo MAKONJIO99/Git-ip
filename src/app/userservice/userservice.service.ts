@@ -29,17 +29,14 @@ export class UserserviceService {
       avatar_url:string;
       created_at:Date;
     }
-    return new Promise((resolve, reject) => {
-      this.http.get<Responce>('https://api.github.com/users/'+searchName+'?access_token='+environment.accesstoken).toPromise().then(
+    return new Promise<void>((resolve) => {
+      this.http.get<Responce>('https://api.github.com/users/'+searchName+'?access_token='+ environment.accesstoken).toPromise().then(
         (result) => {
           this.foundUser = result;
           console.log(result);
           resolve();
         },
-        // (error) => {
-        //   console.log(error);
-        //   reject();
-        // }
+        
       );
     });
   }
@@ -53,16 +50,13 @@ export class UserserviceService {
       language:string;
       created_at:Date;
     }
-    return new Promise((resolve,reject)=>{
+    return new Promise<void>((resolve,reject)=>{
       this.http.get<Repos>('https://api.github.com/users/'+searchName+"/repos?order=created&sort=asc?access_token="+environment).toPromise().then(
         (results) => {
           this.allRepos = results;
           resolve();
         },
-        // (error) => {
-        //   console.log(error);
-        //   reject();
-        // }
+        
       );
     });
   }

@@ -10,11 +10,11 @@ img{
     padding-top: 6%;
   }
   .card{
-    background-color: #227aff83;
+    background-color: lime;
     box-shadow: 3px 3px 5px black;
   }
   #repo{
-    background-color:rgba(232, 253, 255, 0.705);
+    background-color:black;
     color: black;
     margin-bottom: 2%;
     border-radius: 4px; 
@@ -51,4 +51,9 @@ img{
   .join{
     float: right;
     margin-right: 14%;
+  }
+
+  #progress{
+background-color:black;
+color: lime;
   }

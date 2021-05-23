@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Git:build"
+            "browserTarnpm i get": "Git:build"
           }
         },
         "test": {
