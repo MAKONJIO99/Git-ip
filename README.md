@@ -17,11 +17,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Author :
 
-* Clinton Oliera 
+* Francis Makonjio 
 
-##  Contact nformation :
+##  Contact information :
 
-* clintonoliera391@gmail.com
+* francismakonjio2@gmail.com
 
 ##  Licence Information
 
