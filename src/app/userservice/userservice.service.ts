@@ -30,7 +30,7 @@ export class UserserviceService {
       created_at:Date;
     }
     return new Promise<void>((resolve) => {
-      this.http.get<Responce>('https://api.github.com/users/'+searchName+'?access_token='+ environment.accesstoken).toPromise().then(
+      this.http.get<Responce>('https://api.github.com/users/'+searchName+'?='+ environment.http).toPromise().then(
         (result) => {
           this.foundUser = result;
           console.log(result);
@@ -38,7 +38,7 @@ export class UserserviceService {
         },
         
       );
-    });
+    })
   }
   getReopos(searchName){
     interface Repos{
