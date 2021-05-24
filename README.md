@@ -22,6 +22,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 ### Live Site:
 View [live](https://makonjio99.github.io/Git-ip/)
 
+## Author information
+
 |AUTHOR | CONTACT-Email|Phone|
 |:------|:------------|:-----|
 |Francis Makonjio|francismakonjio2@gmail.com|+254790445180|
