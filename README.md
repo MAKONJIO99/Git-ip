@@ -18,6 +18,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## SCREENSHOT
 
 ![](src/assets/Screenshot.png)
+
+### Live Site
+View [live](https://makonjio99.github.io/Git-ip/)
+
 ## Author :
 
 * Francis Makonjio 
