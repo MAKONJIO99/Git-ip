@@ -1,3 +1,10 @@
+```diff
+- text in red
+* text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 # Git :
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
